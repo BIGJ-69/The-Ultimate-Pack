@@ -12,6 +12,6 @@ Some textures may not be in the 1.8.9 version as they were very buggy. I will be
 
 If any textures do not appear or appear as a null block please report it in the issues section.
 
-# © BIGJ 2022
+# © BIGJ 2023
 
 The person(s) using this software may not edit it for public use or distribute this software.
