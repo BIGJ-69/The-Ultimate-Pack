@@ -2,9 +2,10 @@
 The Best GUI resource Pack for minecraft
 
 There are 3 different packs:
-1. 1.19 version
+1. 1.8.9 version
 2. 1.18 version
-3. 1.8.9 version
+3. 1.19 version
+4. 1.20.4 version
 
 Choose the version For the correct Minecraft version, more versions will be availible soon.
 
