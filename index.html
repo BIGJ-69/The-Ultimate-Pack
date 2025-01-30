@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PureCraft Resource Pack</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0e6d2; /* Beige background */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #5c4033; /* Beige-brown */
+        }
+
+        .nav-btn {
+            background-color: #5c4033;
+            color: white;
+            padding: 0.75rem 1.25rem;
+            border: none;
+            border-radius: 0.3rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+
+        .nav-btn:hover {
+           background-color: #7a5241;
+        }
+
+        main {
+            padding: 2rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .gallery-container {
+            max-width: 800px;
+             width: 100%;
+             display: flex;
+             overflow-x: auto;
+             gap: 1rem;
+             padding-bottom: 1rem;
+             margin-bottom: 1rem;
+        }
+        
+        .gallery-container img {
+          max-height: 300px;
+          border-radius: 0.5rem;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .content-container {
+             max-width: 800px;
+             width: 100%;
+             background-color: rgba(255, 255, 255, 0.3);
+             backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 0.5rem;
+             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+             margin-bottom: 2rem;
+             display: flex;
+             flex-direction: column;
+        }
+
+         .content-container h2{
+           color: #5c4033;
+           margin-bottom: 1rem;
+        }
+          .content-container p{
+           line-height: 1.6;
+           margin-bottom: 1rem;
+        }
+          .content-container ul{
+            padding-left: 1.5rem;
+             margin-bottom: 1rem;
+        }
+          .content-container li{
+            margin-bottom: 0.5rem;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+             background-color: #f0e6d2; /* Light beige */
+            color: #5c4033;
+             box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+
+         @media (max-width: 768px) {
+             header {
+                flex-direction: column;
+                align-items: flex-start;
+             }
+
+             header h1 {
+                margin-bottom: 0.5rem;
+             }
+
+             main {
+                padding: 1rem;
+             }
+             
+             .gallery-container{
+                 padding: 0 1rem;
+                 margin-bottom: 0.5rem;
+             }
+
+             .content-container {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PureCraft</h1>
+        <a href="https://github.com/BIGJ42/PureCraft/releases/download/V2.0/b.3The.Ultimate.Pack.8.f1.21.8.zip" class="nav-btn">Download Latest Version</a>
+    </header>
+
+    <main>
+        <div class="gallery-container">
+<img src="image1.jpg" alt="Screenshot 1">
+             <!-- Add more images as needed -->
+        </div>
+
+       <div class="content-container">
+        <h2>Features</h2>
+         <ul>
+            <li>Item physics</li>
+            <li>Clean textures</li>
+            <li>Custom GUI and HUD</li>
+             <li>Realistic environment (sky etc)</li>
+             <li>Smooth font</li>
+            <li>Custom mob animations (requires Optifine)</li>
+        </ul>
+        <p>More features will be added in the future, so make sure to look out for future updates.</p>
+        <p>Enjoy the pack!</p>
+        </div>
+
+       <div class="content-container">
+        <h2>Changelog</h2>
+          <ul>
+                <li><b>1.0 - 1.5:</b> The Ultimate Pack Era.</li>
+                <li><b>V2.0:</b> Total Rebrand to PureCraft, New textures and UI, Minor Performance increase.</li>
+          </ul>
+        </div>
+    </main>
+
+    <footer>
+         <p>Ⓒ BIGJ 2024 You are prophibited from editing or copying anything from this pack for public use, but you can for your own personal use.</p>
+        <p>If you wish to share this pack, either send the download link, or you can send the zip file.</p>
+        <p>This pack was created for Minecraft 1.21.</p>
+    </footer>
+</body>
+</html>
