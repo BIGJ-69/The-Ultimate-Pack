@@ -1,6 +1,6 @@
-# BIGJ Resource Pack Ⓒ 2024
+# PureCraft
 
-Welcome to the **BIGJ Resource Pack** for Minecraft 1.21! This pack is designed to bring a fresh, immersive experience to your game with realistic textures, smooth fonts, custom GUIs, and much more. 
+Welcome to **PureCraft** for Minecraft 1.21! This pack is designed to bring a fresh, immersive experience to your game with realistic textures, smooth fonts, custom GUIs, and much more. 
 
 ---
 
