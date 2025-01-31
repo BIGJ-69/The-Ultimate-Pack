@@ -22,9 +22,12 @@ If you wish to share this pack:
 - **Realistic Environment** – Dynamic sky, weather, and other environmental effects.
 - **Smooth Font** – A refined font for a smoother experience.
 - **Custom Mob Animations** (requires Optifine) – Enhanced animations for mobs for a more lifelike world.
+- **3D Blocks** - Some Blocks will look 3D.
 
 More features will be added in future updates, so be sure to keep an eye out!
 
+---
+**This pack requires optifine installed to use all features**
 ---
 
 ## Changelog
